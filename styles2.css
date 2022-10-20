@@ -1,0 +1,310 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: lato;
+}
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(43, 47, 57);
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    overflow: hidden;
+    background-color: blue;
+    border-radius: 10px;
+  }
+  
+  li {
+    float: right;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    color:  rgb(43, 47, 57);
+  }
+  
+  .active {
+    background-color: #04AA6D;
+  }
+  img {
+      height: 500px;
+      width: 450px;
+      margin-right: 20px;
+      margin-left: 80px;
+      border-radius: 5%;
+      border: rgb(33, 89, 243) solid 2px;
+  }
+  ion-icon {
+      color: #f5f8f7;
+      margin: 0 2px;
+      height: 40px;
+      width: 25px;
+      transition: 0.2s;
+  } 
+  ion-icon:hover{
+      transform: scale(1.5);
+  }
+  .social{
+      background-color: blue;
+      border-radius: 3px;
+      display: flex;
+      align-items: center;
+  }
+  .social p{
+    font-size: larger;
+    color: whitesmoke;
+    display: inline-block;
+    margin-right: 20px;
+    margin-left: 5px;
+  }
+  .social small{
+    margin-left: 740px;
+    margin-top: 10px;
+  }
+  .social a {
+      margin-left: 5px;
+  }
+  label.logo {
+      display: inline-block;
+      color: white;
+      font-size: 35px;
+      line-height: 80px;
+      padding: 0 100px;
+      font-weight: bold;
+      font-family: 'Times New Roman', Times, serif;
+  }
+  .aboutme {
+    display: flex;
+    align-items: center ;
+  }
+  .text-col{
+    border: #04AA6D solid 2px;
+    margin-right: 50px;
+    border-radius: 10px;
+  }
+  .text-col p {
+    font-size: x-large;
+    color: rgb(233, 227, 227);
+  }
+  .text-col h2 {
+    font-size: xx-large;
+    color: #04AA6D;
+  }
+.form-reg {
+    padding-left: 280px;
+}
+
+form {
+    background-color: #C0C0C0;
+    width: 70%;
+    padding-left: 35px;
+    padding-right: 29px;
+    border-radius: 5px;
+    padding-bottom: 60px;
+}
+
+form h5 {
+    padding-top: 40px;
+    color: black;
+    font-size: 30px;
+}
+
+div h6 {
+    font-size: 20px;
+    font-weight: 100;
+}
+
+div span {
+    padding-left: 42%;
+    font-size: 18px;
+    color: black;
+    font-family: lato;
+}
+
+.form-reg form p {
+    padding-bottom: 15px;
+}
+
+div select {
+    border-radius: 5px;
+    height: 40px;
+    width: 18%;
+    border-top: 2px solid black;
+    border-left: 2px solid black;
+    font-size: large;
+    font-family: lato;
+    font-weight: 500;
+}
+
+div .yearr {
+    border-radius: 5px;
+    height: 40px;
+    width: 18%;
+    font-size: large;
+    font-family: lato;
+    font-weight: 500;
+}
+
+div label1 {
+    font-size: 20px;
+}
+
+div label2 {
+    font-size: 20px;
+}
+
+div p1 {
+    padding-bottom: 00px;
+}
+
+div .fname1 {
+    color: black;
+}
+
+div .Mname1 {
+    padding-left: 21.5%;
+    color: black;
+}
+
+div .Lname1 {
+    padding-left: 18.8%;
+    color: black;
+}
+
+div .month {
+    color: black;
+}
+
+div .day {
+    padding-left: 11.5%;
+    color: black;
+}
+
+div .year {
+    padding-left: 13.8%;
+    color: black;
+}
+
+div input {
+    width: 32.5%;
+    align-items: center;
+    border-radius: 5px;
+    height: 40px;
+    font-size: large;
+    font-family: lato;
+    font-weight: 500;
+}
+
+div .Sadd {
+    width: 100%;
+    font-size: large;
+    font-family: lato;
+    font-weight: 500;
+}
+
+div label3 {
+    color: black;
+}
+
+div label4 {
+    padding-left: 45%;
+    color: black;
+}
+
+div label5 {
+    color: black;
+}
+
+div .csp {
+    width: 49.5%;
+}
+
+div .code {
+    width: 100%;
+}
+
+div label6 {
+    color: black;
+}
+
+div .numb {
+    width: 49.5%;
+}
+
+div label7 {
+    color: black;
+}
+
+div strong {
+    padding-left: 32%;
+    font-size: 18px;
+    color: black;
+    font-weight: 100;
+}
+
+div .comment {
+    width: 100%;
+    height: 150px;
+    border-radius: 5px;
+    border-top: 5px;
+    font-size: large;
+    font-family: lato;
+    font-weight: 500;
+}
+
+div .button {
+    width: 35%;
+    max-width: 35%;
+    font-size: 15px;
+    margin-bottom: auto;
+    overflow: hidden;
+    transform: translatez(1.0);
+    text-decoration: none;
+    box-sizing: border-box;
+    font-weight: normal;
+    box-shadow: 0 9px 18px rgba(8, 66, 225, 0.2);
+    height: 40px;
+    border-radius: 5px;
+    color: rgb(0, 0, 0);
+    background: blue;
+    transition: all 0.2s ease-out 0s;
+    border: skyblue;
+    display: inline-block;
+    font-weight: bolder;
+}
+div .reset { 
+    float: right;
+    width: 20%;
+    max-width: 20%;
+    font-size: 15px;
+    margin-bottom: auto;
+    overflow: hidden;
+    transform: translatez(1.0);
+    text-decoration: none;
+    box-sizing: border-box;
+    font-weight: normal;
+    box-shadow: 0 9px 18px rgba(8, 66, 225, 0.2);
+    height: 40px;
+    border-radius: 5px;
+    color: rgb(0, 0, 0);
+    background: blue;
+    transition: all 0.2s ease-out 0s;
+    border: skyblue;
+    font-weight: bolder;
+}
+div .button:hover{
+    background: #14fff3;
+}
+div .reset:hover{
+    background: #14fff3;
+}

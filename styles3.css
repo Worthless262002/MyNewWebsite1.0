@@ -1,0 +1,134 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(43, 47, 57);
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    overflow: hidden;
+    background-color: blue;
+    border-radius: 10px;
+  }
+  
+  li {
+    float: right;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    color:  rgb(43, 47, 57);
+  }
+  
+  .active {
+    background-color: #04AA6D;
+  }
+  img {
+      height: 500px;
+      width: 450px;
+      margin-right: 20px;
+      margin-left: 80px;
+      border-radius: 5%;
+      border: rgb(33, 89, 243) solid 2px;
+  }
+  ion-icon {
+      color: #f5f8f7;
+      margin: 0 2px;
+      height: 40px;
+      width: 25px;
+      transition: 0.2s;
+  } 
+  ion-icon:hover{
+      transform: scale(1.5);
+  }
+  .social{
+      background-color: blue;
+      border-radius: 3px;
+      display: flex;
+      align-items: center;
+  }
+  .social p{
+    font-size: larger;
+    color: whitesmoke;
+    display: inline-block;
+    margin-right: 20px;
+    margin-left: 5px;
+  }
+  .social small{
+    margin-left: 740px;
+    margin-top: 10px;
+  }
+  .social a {
+      margin-left: 5px;
+  }
+  label.logo {
+      display: inline-block;
+      color: white;
+      font-size: 35px;
+      line-height: 80px;
+      padding: 0 100px;
+      font-weight: bold;
+      font-family: 'Times New Roman', Times, serif;
+  }
+  .aboutme {
+    display: flex;
+    align-items: center ;
+  }
+  .text-col{
+    border: #04AA6D solid 2px;
+    margin-right: 50px;
+    border-radius: 10px;
+  }
+  .text-col p {
+    font-size: x-large;
+    color: rgb(233, 227, 227);
+  }
+  .text-col h2 {
+    font-size: xx-large;
+    color: #04AA6D;
+  }
+  .content-table {
+    border-collapse: collapse;
+    margin: 50px 0;
+    font-size: 0.9em;
+    width: 800px;
+    align-content: center;
+    color: whitesmoke;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(11, 196, 225, 0.15);
+        margin-left: auto;
+        margin-right: auto;
+}
+.content-table thead tr{
+    background-color: #04AA6D;
+    color: whitesmoke;
+    text-align: center;
+}
+.content-table th,
+.content-table td {
+    padding: 12px 15px;
+}
+.content-table tbody tr{
+    text-align: center;
+    border-bottom: 1px solid #dddddd;
+}
+.content-table tbody tr:nth-of-type(even){
+    background-color: #1d86e2;
+}
+.content-table tbody tr:last-of-type {
+    border-bottom: 5px solid #04AA6D;
+}
